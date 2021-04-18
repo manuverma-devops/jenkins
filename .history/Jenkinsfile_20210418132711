@@ -14,9 +14,6 @@ pipeline {
         }
     stages {
         stage('One'){
-                tools {
-        maven1 'apache-maven-3.6.2' 
-    }
             steps {
                 sh "mvn --version"
                 sh "echo This is stage1"
