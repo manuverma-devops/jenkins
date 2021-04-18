@@ -15,7 +15,8 @@ pipeline {
         stage('One'){
             steps {
                 sh "echo This is stage1"
-                                
+                
+                
                 echo "Hello ${params.PERSON}"
 
                 echo "Biography: ${params.BIOGRAPHY}"
