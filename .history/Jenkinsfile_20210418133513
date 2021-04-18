@@ -45,12 +45,10 @@ pipeline {
         }
         stage('Parallel Stage') {
             parallel {
-                stage() {
-
-                }
                 stage {
 
                 }
+                stage {}
             }
         }
 
