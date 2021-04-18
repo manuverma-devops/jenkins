@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('One'){
                 tools {
-                        maven 'maven1' 
+                        maven 'mave1' 
                     }
             steps {
                 sh "mvn --version"
