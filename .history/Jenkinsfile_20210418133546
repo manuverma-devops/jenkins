@@ -48,7 +48,6 @@ pipeline {
                 stage('Parallel Stage1') {
                     steps {
                         sh "echo This is parallelStage1"
-                        sh "sleep 1000"
                     }
 
                 }
