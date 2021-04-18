@@ -52,9 +52,9 @@ pipeline {
                     }
 
                 }
-                stage('Parallel Stage2') {
+                stage('Parallel Stage') {
                     steps {
-                        sh "echo This is parallelStage2"
+                        sh "echo This is parallelStage1"
                         sh "sleep 1000"
                     }
                 }
