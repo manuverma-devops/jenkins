@@ -35,7 +35,7 @@ pipeline {
 
         stage('Two'){
              tools {
-                        maven 'maven2' 
+                        maven 'maven1' 
                     }
             steps {
                 sh "echo This is stage1"
