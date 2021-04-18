@@ -43,9 +43,7 @@ pipeline {
                 sh "sleep 3"
             }
         }
-        stage('Parallel Stage') {
-            
-        }
+        stage('')
 
     }
 }
