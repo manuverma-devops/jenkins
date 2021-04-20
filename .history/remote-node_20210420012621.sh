@@ -19,7 +19,7 @@ else
 fi
 
 echo -n "Downloading the remote-jar file from master :"
-curl -s -o  ${JENKINS_CLIJAR} &> /tmp/remote-node.log  
+curl -s -o  ${JENKINS-CLIJAR} &> /tmp/remote-node.log  
 if [ $? -ne 0 ] ; then
     echo "Downloaded"  
    stat $?
