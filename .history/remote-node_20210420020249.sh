@@ -8,7 +8,7 @@ PASSWORD=$3
 
 JENKINS_CLIJAR="http://54.237.77.54:8080/jnlpJars/jenkins-cli.jar"
 
-if [ -z "${SNAME}" -o -z "${USERNAME} -o -z ${PASSWORD} ]; then 
+if [ -z "${SNAME} -o -z ${USERNAME} -o -z ${PASSWORD} ]; then 
     echo -e "Correct Usage is  \e[32m sh remote-node.sh AGENT-NAME JenkinsMasteUserName JenkinsMasterPassword \e[0m"
     exit 1
 fi 
