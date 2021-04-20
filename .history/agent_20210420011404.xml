@@ -7,6 +7,8 @@
   <mode>EXCLUSIVE</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
   <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.31.5">
+    <host>172.31.54.60</host>
+    <port>22</port>
     <credentialsId>agent-conn</credentialsId>
     <launchTimeoutSeconds>60</launchTimeoutSeconds>
     <maxNumRetries>10</maxNumRetries>
