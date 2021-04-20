@@ -31,7 +31,7 @@ fi
 echo -n "Updating the Agent Name on agent.XML file"
 sed -i -e "s/AGENT-REP/$1" agent.xml 
 echo -n "Adding the remote node"
-cat agent.xml | java -jar jenkins-cli.jar -auth ${USERNAME}:${3} -s http://172.31.48.107:8080/ -webSocket create-node  &> /tmp/remote-node.log 
+cat agent.xml | java -jar jenkins-cli.jar -auth ${2}:${3} -s http://172.31.48.107:8080/ -webSocket create-node  &> /tmp/remote-node.log 
 if [ $? -ne 0 ] ; then
    echo "Node not added check the logs " 
 else
