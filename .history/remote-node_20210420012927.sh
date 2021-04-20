@@ -4,7 +4,7 @@
 
 JENKINS_CLIJAR="http://54.237.77.54:8080/jnlpJars/jenkins-cli.jar"
 
-if [ -z ${1} -o -z ${2} -o -z ${3} ]; then 
+if [ -z ${1} -o -z ${2} -o -z ${3 ]; then 
     echo -e "Correct Usage is : \e[32m sh remote-node.sh AGENT-NAME JenkinsMasteUserName JenkinsMasterPassword \e[0m"
     exit 1
 fi 
